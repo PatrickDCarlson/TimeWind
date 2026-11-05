@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://byqb74snj2nie"]
+
+[ext_resource type="Texture2D" uid="uid://ce56vaylg2sj1" path="res://Shade.png" id="1_52wot"]
+[ext_resource type="Script" uid="uid://dcc20f3mumrs8" path="res://shade.gd" id="1_rrgv5"]
+
+[node name="Node2D" type="Node2D" unique_id=365361051]
+script = ExtResource("1_rrgv5")
+
+[node name="Area2D" type="Area2D" parent="." unique_id=681934265]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Area2D" unique_id=1762718673]
+polygon = PackedVector2Array(-56, 56, -40, 48, -16, 32, -16, 16, -16, 0, -24, -16, -32, -32, -24, -40, -16, -56, -8, -64, 8, -64, 16, -56, 24, -48, 40, -40, 40, -16, 32, 0, 32, 24, 40, 40, 64, 56, 48, 64, 40, 56, 24, 56, 8, 64, 0, 56, -24, 56, -32, 64)
+
+[node name="Shade" type="Sprite2D" parent="." unique_id=337666672]
+texture = ExtResource("1_52wot")
+hframes = 2

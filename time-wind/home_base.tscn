@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://cfadys0y5k6ud"]
+
+[node name="HomeBase" type="Node2D" unique_id=1349122738]
+
+[node name="GroundLayer" type="Node2D" parent="." unique_id=2095027619]

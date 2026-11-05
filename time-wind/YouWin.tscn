@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://dy42w40p1rc5g"]
+
+[node name="Control" type="Control" unique_id=1901079364]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=69214768]
+layout_mode = 0
+offset_right = 320.0
+offset_bottom = 184.0
+
+[node name="Button" type="Button" parent="Panel" unique_id=1928427034]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 40.0
+offset_right = 281.0
+offset_bottom = 128.0
+text = "Congratulations!
+The timeline is safe! For now..."

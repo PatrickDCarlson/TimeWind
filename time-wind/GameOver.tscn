@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://diq257g56bboi"]
+
+[node name="Control" type="Control" unique_id=2079658846]
+layout_mode = 3
+anchor_right = 5.6000004
+anchor_bottom = 6.044
+offset_right = 15.999878
+offset_bottom = 24.079956
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Panel" type="Panel" parent="." unique_id=851010309]
+layout_mode = 0
+offset_right = 328.0
+offset_bottom = 184.0
+
+[node name="Button" type="Button" parent="Panel" unique_id=779511608]
+layout_mode = 0
+offset_left = 56.0
+offset_top = 32.0
+offset_right = 272.0
+offset_bottom = 144.0
+text = "Game Over"

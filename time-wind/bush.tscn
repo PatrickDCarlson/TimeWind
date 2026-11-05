@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://d0gbgxudplvwx"]
+
+[ext_resource type="Texture2D" uid="uid://cjcooe0j1xjnk" path="res://bush.png" id="1_8cy4n"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_cimh6"]
+radius = 11.313708
+
+[node name="Bush" type="StaticBody2D" unique_id=445622799]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=980099696]
+texture = ExtResource("1_8cy4n")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=143503068]
+shape = SubResource("CircleShape2D_cimh6")

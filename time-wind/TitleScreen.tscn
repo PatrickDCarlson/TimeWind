@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://cpvcbn8c8etes"]
+
+[ext_resource type="Texture2D" uid="uid://cqi8nuhqjm20" path="res://TimewindLogo.png" id="1_fnlyl"]
+[ext_resource type="Script" uid="uid://bii3sh4llcq8m" path="res://title_screen.gd" id="1_pkhjh"]
+
+[node name="Control" type="Control" unique_id=664043006]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_pkhjh")
+
+[node name="Panel" type="Panel" parent="." unique_id=1896085160]
+layout_mode = 0
+offset_right = 320.0
+offset_bottom = 192.0
+
+[node name="Button" type="Button" parent="Panel" unique_id=1003562750]
+layout_mode = 0
+offset_left = 112.0
+offset_top = 136.0
+offset_right = 200.0
+offset_bottom = 176.0
+action_mode = 0
+text = "Start"
+
+[node name="TimewindLogo" type="Sprite2D" parent="." unique_id=1536492931]
+position = Vector2(160.00002, 72)
+scale = Vector2(0.11069968, 0.11069969)
+texture = ExtResource("1_fnlyl")
+
+[connection signal="pressed" from="Panel/Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Panel/Button" to="." method="_on_start_pressed"]
